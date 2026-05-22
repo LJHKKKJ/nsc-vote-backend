@@ -1,0 +1,18 @@
+{
+  "votedIPs": [
+    "127.0.0.1"
+  ],
+  "totalScores": {
+    "1779389877444": 20
+  },
+  "status": "open",
+  "cards": [
+    {
+      "id": "1779389877444",
+      "artist": "Antigoni",
+      "music": "Habibi",
+      "country": "Scottish Islands",
+      "image": "images/Anntigoni.webp"
+    }
+  ]
+}
