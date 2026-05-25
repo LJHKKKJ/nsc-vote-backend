@@ -125,3 +125,9 @@ if (data.votedIPs.includes(userIP)) return res.status(403).json({ success: false
 // Запуск сервера
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, '0.0.0.0', () => console.log(`Server running on port ${PORT}`));
+```javascript
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+```
