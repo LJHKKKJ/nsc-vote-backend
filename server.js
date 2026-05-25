@@ -105,7 +105,6 @@ app.post('/api/submit-votes', (req, res) => {
     if (data.status !== 'open') return res.status(400).json({ success: false, message: 'Голосование закрыто.' });
 
     const userIP = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
-14:56
 
 
 if (data.votedIPs.includes(userIP)) return res.status(403).json({ success: false, message: 'Вы уже голосовали!' });
